@@ -94,8 +94,11 @@ $global-menu-padding: 0.7rem 1rem;
 $global-menu-nested-margin: 1rem;
 $global-text-direction: ltr;
 $global-flexbox: true;
+<<<<<<< HEAD
+=======
 $global-prototype-breakpoints: false;
 $global-color-pick-contrast-tolerance: 0;
+>>>>>>> a7a874277b85c3305f24df7cc1ddc9cfa8d619ad
 $print-transparent-backgrounds: true;
 
 @include add-foundation-colors;
@@ -839,13 +842,20 @@ $tooltip-radius: $global-radius;
 // 55. Top Bar
 // -----------
 
-$topbar-padding: 0.5rem;
+$topbar-padding: 1rem;
 $topbar-background: $light-gray;
 $topbar-submenu-background: $topbar-background;
 $topbar-title-spacing: 0.5rem 1rem 0.5rem 0;
 $topbar-input-width: 200px;
 $topbar-unstack-breakpoint: medium;
 
+<<<<<<< HEAD
+// 38. Media-object-section
+// ----------------------
+
+$mediaobject-image-width-stacked: 1rem;
+$mediaobject-margin-bottom: 1rem;
+=======
 // 56. Xy Grid
 // -----------
 
@@ -860,4 +870,5 @@ $grid-padding-gutters: $grid-margin-gutters;
 $grid-container-padding: $grid-padding-gutters;
 $grid-container-max: $global-width;
 $block-grid-max: 8;
+>>>>>>> a7a874277b85c3305f24df7cc1ddc9cfa8d619ad
 

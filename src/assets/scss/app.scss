@@ -1,6 +1,7 @@
 @charset 'utf-8';
 
 @import 'settings';
+@import 'main';
 @import 'foundation';
 @import 'motion-ui';
 
@@ -44,10 +45,19 @@
 @include foundation-tooltip;
 @include foundation-top-bar;
 @include foundation-visibility-classes;
+<<<<<<< HEAD
+@include foundation-float-classes;
+//@include foundation-flex-classes;
+=======
 // @include foundation-float-classes;
 @include foundation-flex-classes;
 
 // @include foundation-prototype-classes;
+>>>>>>> a7a874277b85c3305f24df7cc1ddc9cfa8d619ad
 
 @include motion-ui-transitions;
 @include motion-ui-animations;
+
+//@include media-object-section;
+
+@include media-object-section;
